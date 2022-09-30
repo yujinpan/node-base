@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "node-base description.",
   "main": "lib/index.js",
-  "files": ["lib", "bin"],
+  "files": [
+    "lib",
+    "bin"
+  ],
   "scripts": {
     "publish:beta": "npm version prerelease --preid=beta && npm publish",
     "publish:patch": "npm version patch && npm publish",
@@ -36,5 +39,8 @@
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/yujinpan/node-base.git"
+  },
+  "dependencies": {
+    "yargs": "^17.5.1"
   }
 }

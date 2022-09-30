@@ -1,6 +1,5 @@
-export function helloWorld(msg: string) {
+export function helloWorld(options: { msg: string }) {
   // eslint-disable-next-line no-console
-  console.log(msg);
+  console.log(options.msg);
+  return options.msg;
 }
-
-helloWorld('Hello, World!');
