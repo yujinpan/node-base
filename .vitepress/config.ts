@@ -4,7 +4,7 @@ export default defineConfig({
   appearance: true,
   base: '/node-base/',
   title: 'node-base',
-  description: 'infinite scroll for el-table.',
+  description: 'Project template for Node library.',
 
   themeConfig: {
     logo: '/logo.svg',
@@ -22,7 +22,7 @@ export default defineConfig({
     lastUpdatedText: 'Last Updated',
   },
 
-  srcExclude: ['!README.md'],
+  srcExclude: ['**/*.md'],
 
   async transformHtml(code) {
     return code.replace(
