@@ -22,8 +22,6 @@ export default defineConfig({
     lastUpdatedText: 'Last Updated',
   },
 
-  srcExclude: ['**/*.md'],
-
   async transformHtml(code) {
     return code.replace(
       '</body>',
