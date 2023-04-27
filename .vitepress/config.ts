@@ -9,6 +9,9 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     nav: [{ text: 'Guide', link: '/' }],
+    search: {
+      provider: 'local',
+    },
     socialLinks: [
       {
         icon: 'github',
